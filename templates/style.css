@@ -15,8 +15,15 @@ justify-content: center;
     width: 75%;
     height:75%;
     margin: 0 auto;
+
+}
+.chat-top{
+    margin: 0 auto;
     display: flex;
     gap:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .head span{
@@ -36,4 +43,34 @@ justify-content: center;
     border-radius: 50%;
     border-color: bisque;
 
+}
+.msg{
+    background: linear-gradient(40deg,white,rgb(149, 236, 249));
+    width: 75%;
+    height: 75%;
+    border-radius: 25px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.msg input{
+    margin-top:40%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 30px;
+    width: 50%;
+
+}
+
+.msg button{
+    margin-top:40%;
+    color: rgb(16, 16, 16);
+    background-color: rgb(187, 255, 252);
+    border: none;
+    height: 30px;
+    
 }
